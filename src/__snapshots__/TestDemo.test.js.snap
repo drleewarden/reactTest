@@ -1,0 +1,62 @@
+exports[`fetching data re-renders with an error 1`] = `
+<TestDemo
+  test="reactjs">
+  <div>
+    <div>
+      Loading...
+    </div>
+  </div>
+</TestDemo>
+`;
+
+exports[`fetching data re-renders with an error 2`] = `
+<TestDemo
+  test="reactjs">
+  <div>
+    <div>
+      Something went wrong: 
+      End of the world
+    </div>
+  </div>
+</TestDemo>
+`;
+
+exports[`fetching data re-renders with the data 1`] = `
+<TestDemo
+  test="reactjs">
+  <div>
+    <div>
+      Loading...
+    </div>
+  </div>
+</TestDemo>
+`;
+
+exports[`fetching data re-renders with the data 2`] = `
+<TestDemo
+  test="reactjs">
+  <div>
+    <div>
+      Something went wrong: 
+      films.sort is not a function
+    </div>
+  </div>
+</TestDemo>
+`;
+
+exports[`test renders the error state 1`] = `
+<div>
+  <div>
+    Something went wrong: 
+    oops
+  </div>
+</div>
+`;
+
+exports[`test renders the loading state 1`] = `
+<div>
+  <div>
+    Loading...
+  </div>
+</div>
+`;
